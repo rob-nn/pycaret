@@ -1,1 +1,3 @@
 pycaret-book
+.ipynb*
+logs.log

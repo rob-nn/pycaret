@@ -1,7 +1,4 @@
-ARG version
-FROM tensorflow/tensorflow:$version
-
-RUN apt update && apt install -y htop vim curl build-essential
+FROM python:3.8.10
 
 RUN  pip install --upgrade pip
 
